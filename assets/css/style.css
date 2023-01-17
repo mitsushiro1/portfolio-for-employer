@@ -72,14 +72,14 @@ ul{
 
 }
 .big-box{
-   outline: 1px solid red;
+   outline: 1px lightblue;
    height: 100px;
    width: 100%;
    border-radius: 10px;
 
 }
 .small-box{
-    outline: 1px solid blue;
+    outline: 1px lightblue;
     height: 200px;
     width: 100%;
     border-radius: 10px;
@@ -152,7 +152,7 @@ article {
 }
 
 #aboutme{
-    padding-right: 33px;
+    padding-right: 85px;
 }
 
 #footer{
