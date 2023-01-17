@@ -1,30 +1,173 @@
-header{
-    padding: 20px;
+body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #0f4f74;
-    color: #ffffffcc;
+    color: rgb(12, 88, 76);
+   
+    background-image: linear-gradient(
+     rgba(33, 36, 235, 0.3) 0%,
+     rgba(185, 187, 192, 0.6) 100%
+    );
+
+    
+
+}
+
+
+
+
+.container{
+   min-height: 100px;
+   width: auto;
+    background-color: #98DFAF;
+   border: 10px whitesmoke;
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction:row;
+   justify-content:space-between;
+   
+}
+.adult{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: flex-start;
+
+} 
+ul{
+    display:flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+    justify-content: flex-end;
+ align-items:flex-end;
+ list-style: none;
+
+}
+
+.everything-container section {
     display: flex;
+    flex-direction: row;
+}
+
+.title {
+    width: 20%;
+    border-right: 10px groove;
+}
+
+.contents {
+    padding: 20px;
+}
+
+.work-contents {
+    width: 75%;
+    
+    }
+
+.main-container{
+    border: 10px lightblue;
+    height: 500px;
+    width: 500px;
+    float: right;
+    
+    
+
+}
+.big-box{
+   outline: 1px solid red;
+   height: 100px;
+   width: 100%;
+   border-radius: 10px;
+
+}
+.small-box{
+    outline: 1px solid blue;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.project-links {
+   
+    width: 50%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#project1 {
+    background-image: url(../images//gettyimages-643897728-2048x2048.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+article {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.projects:hover {
+    box-shadow: inset 0 0 8px
+    rgba(185, 187, 192, 0.6), 0 0 15px
+    rgba(33, 36, 235, 0.3);
+}
+
+#project2{
+    background-image: url(../images/gettyimages-1143297123-612x612.jpg);
+    background-size: cover;
+    
+
+}
+
+#project3{
+    background-image: url(../images/gettyimages-1215119911-612x612.jpg);
+    background-size: cover;
+    
+
+}
+#project4{
+    background-image: url(../images/gettyimages-1266832146-612x612.jpg);
+    background-size: cover;
+    
+
+}
+#project5{
+    background-image: url(../images/gettyimages-1272326797-612x612.jpg);
+    background-size: cover;
+}
+
+#aboutme{
+    padding-right: 33px;
+}
+
+#footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kids{
+    display:flex;
     flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
 }
-nav{
 
-}
-h1 {
-
-}
-h2 {
-
-}
-figure{
-
-}
-.flex-container{
-    width 100px;
-    height 100px;
-    background-color:lightskyblue;
-
-
-}
-footer {
-
+.child{
+    padding: 10px;
 }
