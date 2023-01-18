@@ -17,7 +17,7 @@ body{
 .container{
    min-height: 100px;
    width: auto;
-    background-color: #98DFAF;
+    background-color: #0e144b;
    border: 10px whitesmoke;
    display:flex;
    flex-wrap: wrap;
@@ -152,7 +152,7 @@ article {
 }
 
 #aboutme{
-    padding-right: 33px;
+    padding-right: 85px;
 }
 
 #footer{
@@ -170,4 +170,8 @@ article {
 
 .child{
     padding: 10px;
+}
+
+.baby{
+    padding: 20px
 }
